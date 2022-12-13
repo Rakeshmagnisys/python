@@ -1,0 +1,14 @@
+from datetime import datetime 
+
+currenttime= datetime.now()
+
+CT = currenttime.hour
+
+print(CT)
+
+if CT <= 10:
+    print("Good Morning Sir")
+elif (CT >10) and (CT <16):
+    print("Good Afternoon Sir")
+else:
+    print("Good Evening Sir")
